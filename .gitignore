@@ -1,0 +1,10 @@
+.env
+scripts/authorize.js
+scripts/oauth2.js
+node_modules
+.vscode
+dist
+**/.DS_Store
+dist/
+node_modules/
+web-ext-artifacts/
