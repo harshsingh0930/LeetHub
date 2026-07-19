@@ -69,6 +69,25 @@ Harsh's LeetHub follows a **Local-First** approach.
 
 ---
 
+# GitHub OAuth Setup
+
+This repository **does not include GitHub OAuth credentials**.
+
+Create your own GitHub OAuth App:
+
+1. Go to **GitHub → Settings → Developer Settings → OAuth Apps**
+2. Create a new OAuth App.
+3. Copy your **Client ID** and **Client Secret**.
+4. Update the following files:
+
+```
+scripts/oauth2.js
+scripts/authorize.js
+```
+
+---
+
+
 # Local Development
 
 Clone the repository:
@@ -113,21 +132,33 @@ Then reload the extension from `about:debugging`.
 
 ---
 
-# GitHub OAuth Setup
+# Installing Permanently in Firefox
 
-This repository **does not include GitHub OAuth credentials**.
+When loaded through `about:debugging`, the extension is installed as a **temporary add-on**.
 
-Create your own GitHub OAuth App:
+Temporary add-ons are removed whenever Firefox is restarted, updated, or crashes.
 
-1. Go to **GitHub → Settings → Developer Settings → OAuth Apps**
-2. Create a new OAuth App.
-3. Copy your **Client ID** and **Client Secret**.
-4. Update the following files:
+To install the extension permanently:
 
+1. Build the extension:
+
+```bash
+npm run build
 ```
-scripts/oauth2.js
-scripts/authorize.js
+
+2. Package it as an `.xpi` file:
+
+```bash
+web-ext build --source-dir=dist
 ```
+
+3. Sign the package through the Mozilla Add-on Developer Hub (Unlisted distribution is sufficient for personal use).
+
+4. Install the signed `.xpi` file in Firefox.
+
+Once signed, the extension remains installed permanently and no longer needs to be loaded through `about:debugging`.
+
+> **Note:** Mozilla's signing process for unlisted extensions is typically very fast and is free to use.
 
 ---
 
