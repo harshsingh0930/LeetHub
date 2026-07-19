@@ -1,90 +1,161 @@
 <h1 align="center">
-  <a href="https://standardjs.com"><img src="assets/octocode.png" alt="LeetHub 2.0 - Automatically sync your code to GitHub." width="400"></a>
+  <img src="assets/octocode.png" alt="Harsh's LeetHub" width="400">
   <br>
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/leethub-2-0-for-firefox/">LeetHub 2.0</a> - Automatically sync your code to GitHub.
+  Harsh's LeetHub
   <br>
-  <br>
+  <sub><b>Local-First</b> • Your Code • Your GitHub • Your Control</sub>
+  <br><br>
 </h1>
 
 <p align="center">
-  <a href="https://github.com/maitreya2954/LeetHub-2.0-Firefox/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"/>
-  </a>
-  <!-- <a href="https://discord.gg/anXT9vErxu">
-    <img src="https://img.shields.io/discord/781373810251137074" alt="discord">
-  </a> -->
-  <!-- <a href="https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi">
-    <img src="https://img.shields.io/chrome-web-store/v/aciombdipochlnkbpcbgdpjffcfdbggi.svg" alt="chrome-webstore"/>
-  </a> -->
-  <!-- <a href="https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi">
-    <img src="https://img.shields.io/chrome-web-store/d/aciombdipochlnkbpcbgdpjffcfdbggi.svg" alt="users">
-  </a>
-  <a href="https://github.com/arunbhardwaj/LeetHub-1.1/graphs/contributors" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/arunbhardwaj/LeetHub-1.1" />
-  </a> -->
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/Firefox-Extension-orange" alt="Firefox Extension"/>
 </p>
 
-<!-- <div align="center">
-  <a href="https://www.producthunt.com/posts/leethub?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-leethub" target="_blank">
-    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=275757&theme=light" alt="LeetHub - Automatically sync your code b/w Leetcode & GitHub. | Product Hunt" />
-  </a>
+---
 
-  [![Chrome](https://user-images.githubusercontent.com/53124886/111952712-34f12300-8aee-11eb-9fdd-ad579a1eb235.png)](https://chrome.google.com/webstore/detail/leethub/aciombdipochlnkbpcbgdpjffcfdbggi) [![Firefox](https://user-images.githubusercontent.com/53124886/126341427-4a4e57aa-767a-467e-83d2-b31fa3564441.png)](https://addons.mozilla.org/en-US/firefox/addon/leethub/)
-</div> -->
+# About
 
-<!-- ## LeetHub progress and numbers (YouTube Video):
-[![LeetHub](https://user-images.githubusercontent.com/43754306/165053510-a757c95e-c3bc-49d5-995c-7a52368abd37.png)](https://www.youtube.com/watch?v=o33PIjqlOgw "LeetHub saves lives!") -->
+**Harsh's LeetHub** is a **Local-First** Firefox extension that automatically uploads your accepted **LeetCode** and **GeeksforGeeks** solutions directly to **your own GitHub repository**.
 
-## What is LeetHub 2.0?
-<p>A Firefox Addon that automatically pushes your code to GitHub when you pass all tests on a <a href="http://leetcode.com/">Leetcode</a> problem. It's forked from the original <a href="https://chromewebstore.google.com/detail/leethub-v2/mhanfgfagplhgemhjfeolkkdidbakocm?hl=en">LeetHub v2</a> and made compatible with Firefox. Shout out to <a href="https://github.com/arunbhardwaj/LeetHub-2.0">arunbhardwaj</a> and <a href="https://github.com/QasimWani/LeetHub">QasimWani</a></p>
+Unlike cloud-based services, Harsh's LeetHub doesn't rely on any third-party backend to store or process your solutions. The extension communicates directly with GitHub using **your own OAuth application**, giving you complete control over where your code is stored.
 
-## Why LeetHub?
-<p> <strong>1.</strong> Recruiters <em>want</em> to see your contributions to the Open Source community, be it through side projects, solving algorithms/data-structures, or contributing to existing OS projects.<br>
-As of now, GitHub is developers' #1 portfolio. LeetHub just makes it much easier (autonomous) to keep track of progress and contributions on the largest network of engineering community, GitHub.</p>
+Whether you choose a **public** repository to showcase your coding journey or a **private** repository for personal practice, your data always remains under your control.
 
-<p> <strong>2.</strong> There's no easy way of accessing your leetcode problems in one place! <br>
-Moreover, pushing code manually to GitHub from Leetcode is very time consuming. So, why not just automate it entirely without spending a SINGLE additional second on it? </p>
+This project is based on the open-source **[LeetHub 2.0 for Firefox](https://github.com/maitreya2954/LeetHub-2.0-Firefox)** and includes various improvements such as:
 
-## How does LeetHub work?     
+- Local-First architecture
+- New branding
+- Updated Firefox extension identity
+- Custom GitHub OAuth configuration
+- UI improvements
+- Bug fixes and ongoing maintenance
 
-<p>It's as simple as:</p>
-<ol>
-  <li>After installation, launch LeetHub.</li>
-  <li>Click on "authorize with GitHub" button to automatically set up your account with LeetHub.</li>
-  <li>Setup an existing/new repository with LeetHub (private by default) by clicking "Get Started" button.</li>
-  <li>Begin Leetcoding! To view your progress, simply click on the addon!</li>
-</ol>
+---
 
+# Features
 
-#### BONUS: Star [this repository](https://github.com/maitreya2954/LeetHub-2.0-Firefox) for further development of features. If you want a particular feature, simply [request](https://github.com/maitreya2954/LeetHub-2.0-Firefox/labels/feature) for it!
+- Local-First architecture
+- Direct GitHub synchronization
+- No third-party backend
+- Supports both public and private GitHub repositories
+- Automatically uploads accepted LeetCode solutions
+- Automatically uploads accepted GeeksforGeeks solutions
+- Automatically organizes problems into folders
+- Automatically updates repository statistics and README
+- Native Firefox support
 
-# Let's see you ACE that coding interview!
+---
 
-![leetcode view](assets/extension/leetcode_updated.png)
+# Why Local-First?
 
-## Why did I build Leethub 2.0 for Firefox
+Harsh's LeetHub follows a **Local-First** approach.
 
-When I started leetcoding to prepare for interviews. I wanted a way to store all my solutions. I found out about LeetHub and LeetHubV2. But being a ardent firefox user, I couldnt find a working firefox addon which does the job. So, I migrated the chrome extension to firefox.
+- Your solutions are uploaded directly from Firefox to your GitHub repository.
+- No intermediate server stores your solutions.
+- You control your own GitHub OAuth application.
+- You decide whether your repository is public or private.
+- Your coding portfolio always remains under your ownership.
 
-# How to set up LeetHub for local development?
+---
 
-<ol>
-  <li>Fork this repo and clone to your local machine</li>
-  <li>Run "npm run setup" to install the developer dependencies</li>
-  <li>Run `npm run build` to build the final addon files into the `./dist/` directory</li>
-  <li>Go to <a href="about://debugging">about:debugging</a> </li>
-  <li>Click on <a>This firefox</a> present in the setup section</li> 
-  <li>Click 'Load Temporary Add-on'</li>
-  <li>Select any file in `./dist/` LeetHub folder</li>
-  <li>That's it! Be sure to `npm run build` and reload the addon after making changes</li>
-</ol>
+# How It Works
 
-Other npm commands available:
+1. Install the extension.
+2. Authorize with GitHub.
+3. Select or create a repository.
+4. Start solving problems.
+5. Every accepted solution is automatically committed to your GitHub repository.
+
+---
+
+# Local Development
+
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+cd <repository>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the initial setup:
+
+```bash
+npm run setup
+```
+
+Build the extension:
+
+```bash
+npm run build
+```
+
+Load it into Firefox:
+
+1. Open `about:debugging`
+2. Select **This Firefox**
+3. Click **Load Temporary Add-on**
+4. Select the `manifest.json` file inside the `dist` folder
+
+Whenever you make changes, rebuild the extension:
+
+```bash
+npm run build
+```
+
+Then reload the extension from `about:debugging`.
+
+---
+
+# GitHub OAuth Setup
+
+This repository **does not include GitHub OAuth credentials**.
+
+Create your own GitHub OAuth App:
+
+1. Go to **GitHub → Settings → Developer Settings → OAuth Apps**
+2. Create a new OAuth App.
+3. Copy your **Client ID** and **Client Secret**.
+4. Update the following files:
 
 ```
-npm run               Show list of commands available
-npm run format        Auto-format JavaScript, HTML/CSS
-npm run format-test   Test all code is formatted properly
-npm run lint          Lint JavaScript
-npm run lint-test     Test all code is linted properly
+scripts/oauth2.js
+scripts/authorize.js
 ```
+
+---
+
+# Available Commands
+
+```text
+npm run              Show available scripts
+npm run setup        Install development dependencies
+npm run build        Build the extension
+npm run format       Format source files
+npm run format-test  Check formatting
+npm run lint         Run ESLint
+npm run lint-test    Check linting
+```
+
+---
+
+# Attribution
+
+Harsh's LeetHub is a modified fork of the following open-source projects:
+
+- [LeetHub](https://github.com/QasimWani/LeetHub)
+- [LeetHub 2.0 for Firefox](https://github.com/maitreya2954/LeetHub-2.0-Firefox)
+
+Many thanks to the original authors and contributors for making these projects possible.
+
+---
+
+# License
+
+This project is distributed under the terms of the **MIT License**. See the [LICENSE](LICENSE) file for details.
